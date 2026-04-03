@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Zero out the browser and fix the viewport */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Stops the extra scrollbar/gap */
+  background-color: #f8fafc; /* Matches slate-50 */
+}
+
+#root {
+  display: flex;
+}
